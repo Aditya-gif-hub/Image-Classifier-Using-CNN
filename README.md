@@ -16,7 +16,7 @@ The project uses a Convolutional Neural Network (CNN) model with transfer learni
 ## Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/image-sentiment-analysis.git
+   git clone https://avatars.githubusercontent.com/u/176422324?v=4
    cd image-sentiment-analysis
 2. **Install Required Libraries**: Ensure you have the following packages installed. You can install them using pip.
    ```bash
@@ -32,6 +32,19 @@ The model requires a dataset of labeled images with sentiment annotations. You c
 
 ## Model Training
 The notebook leverages a transfer learning approach using a pre-trained Convolutional Neural Network (CNN) model, such as VGG16, ResNet, or Inception, which has been previously trained on a large image dataset like ImageNet. This technique helps the model utilize complex, learned image features, such as edge detection and object composition, without needing to train from scratch, thereby improving performance and reducing the computational requirements.
+
+## Evaluation and Validation
+Cross-Validation:
+
+Use k-fold cross-validation to ensure robust evaluation of the model.
+
+Confusion Matrix Analysis:
+
+Analyze the confusion matrix to identify specific classes where the model struggles.
+
+Error Analysis:
+
+Inspect misclassified images to understand model weaknesses and improve data or architecture.
 
 ### Steps in Model Training:
 1. **Load the Pre-trained Model**:
@@ -64,3 +77,5 @@ The model is evaluated using accuracy metrics, and confusion matrices to assess 
 The model’s performance is summarized in terms of accuracy and class-wise metrics. Use the visualizations to analyze which sentiment classes perform well and which might need more data or fine-tuning.
 
 If you have any ideas and suggestions feel free to share them.
+
+<a href = adityaraghuvanshi2004@gmail.com>
